@@ -7,6 +7,10 @@ public class Math{
         int sub=a+b;
         System.out.println("sub:"+sub);
     }
+    public void div(int a,int b){
+        int div=a/b;
+        System.out.println("Div:"+div);
+    }
     public static void main(String args[]){
         Math m=new Math();
         m.add(10, 10);
